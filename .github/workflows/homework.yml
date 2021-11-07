@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/basic_function_homework
+          repository: codeschooluz/basic_function_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
